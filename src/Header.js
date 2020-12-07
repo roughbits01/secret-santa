@@ -8,7 +8,7 @@ const Header = () => {
         <img src={image} className="header__image" alt="santa" />
       </a>
       <h1>Le Secret Santa</h1>
-      <p className="subtitle">des Perruche!</p>
+      <p className="subtitle">des Perruche !</p>
     </div>
   );
 };
