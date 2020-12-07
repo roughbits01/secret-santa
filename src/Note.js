@@ -9,7 +9,7 @@ const Note = (props) => {
           Coucou {props.name.replace("%20", " ")},
         </h5>
         <h5>
-          Cette année tu offres un cadeau d'une valeur de 20 euros à{" "}
+          cette année tu offres un cadeau d'une valeur de 20 euros à{" "}
           <span className="note__santa">{props.decryptHash(props.mykey)}</span>.
         </h5>
         <img src={present} className="note__image" alt="present" />
